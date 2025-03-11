@@ -1,122 +1,102 @@
-# DSA210-Project
-Investigating the Effects of Coffee Consumption and Twitter Usage on Focus &amp; Productivity
+# AI Investment Impact on Company Valuation
 
 ## Project Overview
-In today's fast-paced digital world, caffeine and social media have become two dominant forces shaping daily routines. Over the next three months, I will systematically track my coffee consumption and Twitter usage to evaluate their effects on my focus and productivity.
-
-The goal is to uncover patterns in my behavior and determine whether these habits are enhancing or hindering my ability to concentrate. Using statistical analysis and data visualization, I will explore correlations between caffeine intake, social media engagement, and work efficiency. The ultimate objective is to make data-driven adjustments to my daily routine and optimize my mental performance.
+Artificial Intelligence (AI) has become a significant driver of innovation and business transformation. This project aims to investigate how AI investments influence company valuation over time. By analyzing financial and market data, I will assess the short-term and long-term effects of AI-related expenditures on business growth and market perception.
 
 ---
 
 ## Objectives
-1. **Identify Productivity Influencers**
+1. **Evaluate Financial Impact**  
+   Examine how AI investments correlate with revenue growth, profit margins, and stock prices.  
 
-   Examine how different levels of coffee consumption and varying durations of Twitter usage impact focus and work efficiency.
+3. **Analyze Market Perception**  
+    Assess how AI-related announcements affect investor confidence and market sentiment.  
 
-3. **Optimize Daily Habits**
+5. **Identify Industry Trends**  
+    Track sector-specific patterns to determine which industries benefit the most from AI investments.  
 
-    Determine the ideal balance between caffeine intake, social media use, and productivity.
-   
-5. **Leverage Data Science Techniques**
-
-    Apply statistical methods and visualization tools to extract meaningful insights from personal behavioral data.
-
-7. **Improve Self-Awareness**
-
-    Gain a deeper understanding of how small daily choices affect cognitive performance and workflow.
+7. **Predict Future Performance**  
+    Use data-driven methods to forecast how AI investments might shape company valuations in the coming years.  
 
 ---
 
 ## Motivation
-This project is fueled by both curiosity and practical necessity. As someone who drinks coffee regularly and spends significant time on Twitter, I want to assess whether these habits contribute to or detract from my ability to focus.
+The growing adoption of AI has led to significant financial commitments from businesses. Understanding whether these investments result in tangible financial gains can help companies make more strategic decisions. This project will provide a data-driven perspective on the real impact of AI funding.
 
 ### Why This Matters?
+#### 🔹 Strategic Decision-Making  
+  Quantify ROI of AI investments to guide budgeting and R&D prioritization.  
+#### 🔹 Investor Confidence  
+  Understand how AI initiatives influence market sentiment and stock performance.  
+#### 🔹 Competitive Advantage  
+  Identify optimal AI investment strategies for long-term valuation growth.  
 
-#### 🔹 Data Over Assumptions 
-  Instead of relying on intuition, I want clear, measurable evidence to determine the real impact of caffeine and social media on my work habits.
-
-#### 🔹 Personal & Professional Growth 
-  By understanding my behavioral patterns, I can create an optimized daily structure that enhances focus, efficiency, and overall well-being.
-
-#### 🔹 A Scientific Approach to Productivity 
-  This project is an opportunity to apply data science in a real-world context, transforming subjective experiences into objective insights.
-
-  ---
+---
 
 ## Dataset
-For three months, I will collect daily records of various factors that may influence productivity. Key variables include:
+For this analysis, I will collect and integrate data from multiple sources. Key variables include:
 
-### Coffee Consumption ☕
+### Financial Performance Metrics 💹
+#### ➖ Quarterly revenue and profit changes post-AI investment  
+#### ➖ AI-related R&D expenditure as a percentage of total budget  
+#### ➖ Changes in market capitalization  
 
-#### ➖Number of cups consumed
-#### ➖Time of consumption (morning, afternoon, evening)
+### Stock Market Data 📈
+#### ➖ Stock price movements before/after AI announcements  
+#### ➖ Trading volume fluctuations  
+#### ➖ Volatility index adjustments  
 
-### Twitter Usage 📱
+### Market Sentiment 🗨️  
+#### ➖ AI-related news coverage and social media discussions  
+#### ➖ Investor sentiment analysis (positive/negative/neutral classification)  
 
-#### ➖Total time spent on Twitter (minutes)
-#### ➖Number of sessions and peak usage hours
-
-### Productivity Metrics 📊
-
-#### ➖Hours spent on focused work
-#### ➖Self-rated concentration level (scale of 1-10)
-#### ➖Number of tasks completed
-
-### External Factors 🌙
-
-#### ➖Sleep duration & quality
-#### ➖Stress levels (self-reported)
-#### ➖Exercise & physical activity
-#### ➖All data will be logged manually using Google Sheets/Excel for structured collection, ensuring consistency.
+### Industry Landscape 🌐  
+#### ➖ AI adoption rates across industries  
+#### ➖ Comparison of AI-focused vs. non-AI companies  
 
 ---
 
 ## Tools and Technologies
-To process, analyze, and visualize the collected data, I will use:
-
-📌 Python (Pandas, NumPy) – Data cleaning, preprocessing, and transformation
-
-📌 Matplotlib & Seaborn – Graphical analysis and data visualization
-
-📌 SciPy & Statsmodels – Statistical testing and regression modeling
-
-📌 Jupyter Notebook – Organizing analysis and documentation
-
-📌 Google Sheets/Excel – Manual data logging and tracking
+To process, analyze, and visualize the data, I will use:  
+📌 Python (Pandas, NumPy) – Data cleaning and preprocessing  
+📌 Matplotlib & Seaborn – Trend visualization  
+📌 NLP (NLTK, spaCy) – Sentiment analysis of market news  
+📌 Machine Learning (Scikit-learn) – Predictive modeling  
+📌 SQL & APIs – Financial data extraction  
+📌 Jupyter Notebook – Analysis documentation  
 
 ---
 
 ## Analysis Plan
-The project will be broken down into the following phases:
+### 1️⃣ Data Collection & Preprocessing  
+Gather financial reports, stock data, and sentiment indicators.  
+Standardize data formats and handle missing values.  
 
-### 1️⃣ Data Collection & Preprocessing
-Track daily habits and log them consistently.
-Handle missing values and standardize time-based entries.
-### 2️⃣ Exploratory Data Analysis (EDA)
-Generate visualizations to observe trends (scatter plots, time-series analysis).
-Compute correlation matrices to identify key relationships.
-### 3️⃣ Statistical Testing & Hypothesis Analysis
-Test whether higher caffeine consumption correlates with increased productivity.
-Examine if excessive Twitter usage negatively affects focus and efficiency.
-### 4️⃣ Trend Analysis & Predictive Insights
-Identify patterns over time (e.g., does coffee boost focus in the short term but reduce efficiency later?).
-Evaluate how productivity fluctuates based on external factors (e.g., poor sleep, stress levels).
-### 5️⃣ Optimization & Actionable Recommendations
-Use findings to create a personalized efficiency strategy.
-Develop guidelines on the best times to consume caffeine and limit social media usage.
+### 2️⃣ Exploratory Data Analysis (EDA)  
+Visualize AI investment trends vs. valuation changes.  
+Calculate correlation matrices for key financial metrics.  
+
+### 3️⃣ Statistical Testing & Hypothesis Validation  
+Test significance of AI spending on revenue growth (ANOVA/regression).  
+Analyze stock price reactions to AI announcements (event study methodology).  
+
+### 4️⃣ Predictive Modeling & Industry Benchmarking  
+Build regression models to forecast valuation impacts.  
+Compare AI ROI across sectors using clustering techniques.  
+
+### 5️⃣ Strategic Recommendations  
+Develop frameworks for optimizing AI investment portfolios.  
+Create sector-specific guidelines for maximizing valuation growth.  
 
 ---
 
 ## Conclusion
-At the end of this project, I aim to answer:
+By the end of this study, I aim to answer:  
+#### ✔ Does AI investment directly boost company valuation?  
+#### ✔ How does market sentiment amplify or diminish financial outcomes?  
+#### ✔ Which industries show the highest ROI from AI adoption?  
+#### ✔ What investment thresholds trigger measurable valuation changes?  
 
-#### ✔ Does coffee improve focus, or is the effect overrated?
-#### ✔ How does Twitter usage influence cognitive performance and productivity?
-#### ✔ Is there an optimal caffeine-social media balance for maximizing efficiency?
-#### ✔ What small changes can I implement to enhance my daily workflow?
+This analysis will empower businesses to make evidence-based AI investment decisions, balancing innovation with financial sustainability. The findings will also provide investors with actionable insights for evaluating AI-driven companies.  
 
-Rather than relying on conventional wisdom, this project will provide a data-driven approach to understanding my daily habits. The insights gained can be applied beyond just coffee and Twitter—potentially shaping better time management, work routines, and focus strategies for long-term success.
-
-#### 🚀 By leveraging data science in a personal experiment, I hope to uncover practical ways to improve productivity while maintaining an enjoyable lifestyle.
-
-
+#### 🚀 By merging financial analytics with AI adoption trends, this project aims to decode the complex relationship between technological investment and market success.

@@ -63,8 +63,8 @@ To process, analyze, and visualize the data, I will use:
 📌 Machine Learning (Scikit-learn) – Predictive modeling  
 📌 SQL & APIs – Financial data extraction  
 📌 Jupyter Notebook – Analysis documentation
-📌 yfinance – Stock price data collection
-📌 GoogleNews Python Library – AI-related news scraping
+📌 yfinance – Stock price data collection  
+📌 GoogleNews Python Library – AI-related news scraping  
 📌 openpyxl – Excel file handling
 
 

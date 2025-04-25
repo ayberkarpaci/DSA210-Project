@@ -67,6 +67,8 @@ To process, analyze, and visualize the data, I will use:
 📌 GoogleNews Python Library – AI-related news scraping
 📌 openpyxl – Excel file handling
 
+
+
 ---
 
 ## Analysis Plan

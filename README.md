@@ -62,7 +62,7 @@ To process, analyze, and visualize the data, I will use:
 📌 NLP (NLTK, spaCy, TextBlob) – Sentiment analysis of market news  
 📌 Machine Learning (Scikit-learn) – Predictive modeling  
 📌 SQL & APIs – Financial data extraction  
-📌 Jupyter Notebook – Analysis documentation 
+📌 Jupyter Notebook – Analysis documentation    
 📌 GoogleNews Python Library – AI-related news scraping  
 📌 openpyxl – Excel file handling
 📌 yfinance – Stock price data collection  

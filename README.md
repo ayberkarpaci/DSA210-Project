@@ -1,6 +1,6 @@
 # AI Investment News and Big Tech Stock Prices
 
-[![notebooks](https://github.com/ayberkarpaci/DSA210-Project/actions/workflows/notebooks.yml/badge.svg)](https://github.com/ayberkarpaci/DSA210-Project/actions/workflows/notebooks.yml)
+[![notebooks](https://github.com/ayberkarpaci/ai-news-stock-impact/actions/workflows/notebooks.yml/badge.svg)](https://github.com/ayberkarpaci/ai-news-stock-impact/actions/workflows/notebooks.yml)
 
 DSA 210 term project. It asks whether news
 about AI investments moves the stock prices of **Tesla, Amazon, Google,

@@ -1,0 +1,21 @@
+name: notebooks
+
+on: [push, pull_request]
+
+jobs:
+  run-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      # The data collection notebooks in Codes/ need network access to
+      # Yahoo Finance and Google News, so only the analysis is re-run here.
+      - name: Execute the analysis notebooks
+        run: |
+          jupyter nbconvert --to notebook --execute --output-dir /tmp/executed \
+            "Exploratory Data Analysis and Hypothesis Testing.ipynb" \
+            "Applying Machine Learning Methods.ipynb"

@@ -55,7 +55,7 @@ Codes/                                   data collection pipeline (needs interne
 DATA/                                    the collected and processed data
 Exploratory Data Analysis and Hypothesis Testing.ipynb
 Applying Machine Learning Methods.ipynb
-Final Report.pdf                         report as submitted for the course
+Final Report.pdf                         project report (revised September 2026)
 ```
 
 ## Methods
@@ -90,8 +90,9 @@ download will not match the committed headlines exactly.
 
 ## Revisions after submission
 
-The notebooks were revised after the course ended; `Final Report.pdf` is the
-original submission and still shows the earlier results. The changes:
+The analysis was revised after the course ended, and `Final Report.pdf` was
+rewritten to match it; the originally submitted report is in the git history.
+The changes:
 
 - **Volatility test.** The original test compared the level of volatility with
   zero, which is always true for a standard deviation. It now compares the five
@@ -101,7 +102,7 @@ original submission and still shows the earlier results. The changes:
   the same day while using that day's `Open` and `Close` as inputs, with a
   random train/test split. They now predict the next day from information
   available today, with a chronological split. The notebook reproduces the old
-  setup to show where its 70-87% accuracy came from.
+  setup to show where its accuracy of up to 87% came from.
 - **Invented trading days.** Market holidays were filled in by forward-filling
   the previous day, which duplicated returns. Holidays are now left out.
 - **Mislabelled tests.** Tests described as 5-day cumulative abnormal returns
